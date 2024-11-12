@@ -25,8 +25,15 @@ elif num2>num3:
 else:
     mayor =num3   
     mayor2= "Tercero"
+
+    
+##El salto de linea es (texto \n texto)
+
+
+texto=(f"Su numero mayor es {mayor} tambien \nFue el {mayor2} que digito").capitalize()
    
-print(f"Su numero mayor es {mayor} y fue el {mayor2} que digito")    ##Se imprime el numero mayor que digito y se coloca en que numero del ciclo lo digito
+   
+print(texto)    ##Se imprime el numero mayor que digito y se coloca en que numero del ciclo lo digito
 
 
 
