@@ -21,7 +21,9 @@ empieza_con = cadena1.startswith("Juan")#Verifica la cadena empieza con otra cad
 
 termina_con = cadena2.endswith("cero")#Verifica la cadena termina con otra cadena dada si es asi la devuelve
 
-cadena_nueva = cadena2.replace("ro","ra" )
-cadena_nueva= cadena_nueva.replace("ido", "ida")
+cadena_nueva = cadena2.replace("ro","ra" ) ## Reemplazar el pedazo de la cadena dada, por otra dada
+cadena_nueva= cadena_nueva.replace("ido", "ida") ## Quise volver a reemplazar la que ya tenía para reemplazar otra parte
 
-print(cadena_nueva) 
+cadena_separada = cadena1.split(" ")
+
+print(cadena_separada[3]) 
