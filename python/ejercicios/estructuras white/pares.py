@@ -11,7 +11,9 @@ def borrar_mensaje():
 x=1
 termino=11
 
-while x<=25:
+##Ciclo para sacar los pares de 11 en 11 que se repita 25 veces
+
+while x<=25:            
     print(termino)
     x=x+1
-    termino=termino+11  
+    termino=termino+11  ##El termino se va sumando el mismo + 11 oara que saque los pares

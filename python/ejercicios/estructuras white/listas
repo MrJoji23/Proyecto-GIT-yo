@@ -6,12 +6,14 @@ def borrar_mensaje():
     if sistema == 'nt':
         os.system('cls')
         
+##Ejercicio para comparar dos listas para la suma de cada digito en la lista y comparar de cual es la lista más grande
+
 
 x=1
 y=1
 
 print("Primera lista")
-
+##Primera lista para sumar cada digito 
 while x<=15:
     valor=int(input(f"Ingrese el {x} valor "))
     valor=valor+1
@@ -20,14 +22,14 @@ while x<=15:
 borrar_mensaje()
  
 print("Segunda lista")
-
+##Segunda lista para sumar cada digito 
 while y<=15:
     valor2=int(input(f"Ingrese el {y} valor "))
     valor2=valor2+1
     y=y+1
     
 borrar_mensaje()
-    
+##Comparando las dos listas para comprobar cual lista tiene los digitos más altos
 if valor>valor2:
     print("Los valores más altos son los de la primera lista")
 elif valor2>valor:
