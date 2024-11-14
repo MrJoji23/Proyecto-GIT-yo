@@ -4,7 +4,7 @@ def borrar_mensaje():
     sistema=os.name
     
     if sistema == 'nt':
-        os.system=('cls')
+        os.system('cls')
 
 ##Empezamos a usar el while para ciclo
 
@@ -38,7 +38,7 @@ if mayor > 0:
 if menor > 0:
     promedio_menor= suma_menor/menor
     
-    
+borrar_mensaje()
     
 ##Imprimiendo las notas y promedio
 

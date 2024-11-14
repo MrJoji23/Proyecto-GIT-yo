@@ -1,0 +1,36 @@
+import os ##importar modulo para el poder escribir en la consola un mensaje automatico
+
+def borrar_mensaje():
+    sistema = os.name
+    
+    if sistema == 'nt':
+        os.system('cls')
+        
+
+x=1
+y=1
+
+print("Primera lista")
+
+while x<=15:
+    valor=int(input(f"Ingrese el {x} valor "))
+    valor=valor+1
+    x=x+1
+
+borrar_mensaje()
+ 
+print("Segunda lista")
+
+while y<=15:
+    valor2=int(input(f"Ingrese el {y} valor "))
+    valor2=valor2+1
+    y=y+1
+    
+borrar_mensaje()
+    
+if valor>valor2:
+    print("Los valores más altos son los de la primera lista")
+elif valor2>valor:
+    print("Los valores más altos son los de la segunda lista")
+else:
+    print("Las listas son iguales")
